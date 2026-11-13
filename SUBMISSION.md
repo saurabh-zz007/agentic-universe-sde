@@ -3,7 +3,7 @@
 ## Candidate
 - **Name:** SDE Candidate
 - **Assignment chosen:** B (Workflow)
-- **Time spent (honest estimate):** 6h
+- **Time spent (honest estimate):** 10h+ till 13.30 PM 13-11-2026
 
 ## How to run
 ```bash
@@ -12,8 +12,7 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# 2. Configure environment (PostgreSQL or local SQLite fallback)
-# By default, solution runs out-of-the-box with SQLite, or connects to Postgres if configured
+# 2. Configure environment 
 cp .env.example .env
 
 # 3. Run unit & integration tests
